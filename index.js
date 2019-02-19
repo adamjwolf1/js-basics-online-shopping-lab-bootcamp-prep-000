@@ -57,5 +57,5 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  if typeof
+  if (typeof(cardNumber)
 }
