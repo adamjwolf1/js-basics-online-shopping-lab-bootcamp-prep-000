@@ -48,6 +48,8 @@ function removeFromCart(item) {
     }
   }
   if (item != cart[item]) {
+    return "That item is sont in your cart."
+  }
 }
 
 function placeOrder(cardNumber) {
